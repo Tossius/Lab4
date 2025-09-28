@@ -1,0 +1,42 @@
+form{
+    background-color: rgb(220, 220, 220);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    font-weight: bold;
+    border: 5px solid black;
+    flex-wrap: wrap;
+}
+input{
+    font-size: 25px;
+    font-weight:normal;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table{
+    background-color: rgb(220, 220, 220);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+@media (max-width: 980){
+    form{
+        font-size: 30px;
+    }
+    input{
+        font-size: 15px;
+    }
+}
+@media (max-width: 480){
+    form{
+        font-size: 20px;
+    }
+    input{
+        font-size: 10px;
+    }
+}
