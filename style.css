@@ -12,23 +12,19 @@
             min-height: 100vh;
             padding: 20px;
         }
-
         .container {
             max-width: 1200px;
             margin: 0 auto;
             background: white;
-            border-radius: 12px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.2);
             overflow: hidden;
         }
-
         .header {
             background: gray;
             color: white;
             padding: 30px;
             text-align: center;
         }
-
         .header h1 {
             font-size: 2.5em;
             margin-bottom: 10px;
@@ -41,8 +37,7 @@
         }
 
         .main-content {
-            display: grid;
-            grid-template-columns: 1fr 2fr;
+
             gap: 30px;
             padding: 30px;
         }
@@ -133,7 +128,7 @@
         }
 
         .submit-btn {
-            background: linear-gradient(135deg, #4f46e5, #7c3aed);
+            background: grey;
             color: white;
             border: none;
             padding: 15px 30px;
@@ -169,7 +164,7 @@
         /* Profile Cards */
         .cards-section h2 {
             margin-bottom: 20px;
-            color: #1e293b;
+            color: #0159e6;
             font-size: 1.5em;
         }
 
@@ -264,7 +259,7 @@
         }
 
         th {
-            background: linear-gradient(135deg, #4f46e5, #7c3aed);
+            background: grey;
             color: white;
             padding: 15px;
             text-align: left;
