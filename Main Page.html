@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Registration</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <div class="container">
@@ -37,15 +38,7 @@
 
                     <div class="form-group">
                         <label for="programme">Programme <span aria-hidden="true">*</span></label>
-                        <select id="programme" name="programme" required>
-                            <option value="">Select Programme</option>
-                            <option value="Computer Science">Computer Science</option>
-                            <option value="Information Technology">Information Technology</option>
-                            <option value="Software Engineering">Software Engineering</option>
-                            <option value="Data Science">Data Science</option>
-                            <option value="Cybersecurity">Cybersecurity</option>
-                            <option value="Web Development">Web Development</option>
-                        </select>
+                          <input type="text" id="programme" name="programme" required>
                         <small class="error" id="err-programme"></small>
                     </div>
 
@@ -92,7 +85,7 @@
                                 <th>Email</th>
                                 <th>Programme</th>
                                 <th>Year</th>
-                                <th>Actions</th>
+                                <th>Interests</th>
                             </tr>
                         </thead>
                         <tbody>
