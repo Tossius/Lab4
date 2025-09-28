@@ -1,3 +1,4 @@
+// script.js
         // Global array to store all profiles
         let profiles = [];
 
@@ -218,4 +219,9 @@
             } else {
                 document.getElementById('live').textContent = 'Please fix the errors in the form before submitting.';
             }
+        });
+
+        // Initialize empty table message
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Student Registration Form loaded and ready!');
         });
